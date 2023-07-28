@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+class CloseKeyboardView extends StatelessWidget {
+  const CloseKeyboardView({super.key, required this.child});
+
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => FocusScope.of(context).unfocus(),
+      behavior: HitTestBehavior.translucent,
+      child: child,
+    );
+  }
+}
