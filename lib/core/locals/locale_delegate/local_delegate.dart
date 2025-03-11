@@ -1,8 +1,8 @@
-import 'package:dadonda/core/locals/locale_delegate/russian_delegate.dart';
-import 'package:flutter/cupertino.dart';
+ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'korean_delegate.dart';
+import 'russian_delegate.dart';
 import 'uzbek_delegate.dart';
 
 class MaterialLocalizationsDelegate

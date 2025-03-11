@@ -174,4 +174,34 @@ class RussianCupertinoLocalizations implements CupertinoLocalizations {
 
   @override
   String datePickerDayOfMonth(int dayIndex, [int? weekDay]) => '';
+
+  @override
+  // TODO: implement clearButtonLabel
+  String get clearButtonLabel => throw UnimplementedError();
+
+  @override
+  String datePickerStandaloneMonth(int monthIndex) {
+    // TODO: implement datePickerStandaloneMonth
+return "";
+  }
+
+  @override
+  // TODO: implement lookUpButtonLabel
+  String get lookUpButtonLabel => "";
+
+  @override
+  // TODO: implement menuDismissLabel
+  String get menuDismissLabel =>"";
+
+  @override
+  // TODO: implement noSpellCheckReplacementsLabel
+  String get noSpellCheckReplacementsLabel => "";
+
+  @override
+  // TODO: implement searchWebButtonLabel
+  String get searchWebButtonLabel => "";
+
+  @override
+  // TODO: implement shareButtonLabel
+  String get shareButtonLabel => "";
 }

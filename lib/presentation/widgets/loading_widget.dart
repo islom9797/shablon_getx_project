@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:dadonda/core/utils/app_assets.dart';
-import 'package:dadonda/core/utils/app_colors.dart';
 
+import '../../core/utils/app_assets.dart';
 import '../../core/utils/dimens.dart';
 class LoadingView extends StatelessWidget {
   final bool isLoading;

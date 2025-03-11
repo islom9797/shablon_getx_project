@@ -1,10 +1,10 @@
-import 'package:dadonda/config/extensions.dart';
-import 'package:dadonda/core/utils/dimens.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:dadonda/core/utils/app_assets.dart';
-import 'package:dadonda/core/utils/app_colors.dart';
+
+import '../../core/utils/app_colors.dart';
+import '../../core/utils/dimens.dart';
 class CustomTextField extends StatelessWidget {
   final TextEditingController controller;
   final double borderRadius;
@@ -67,7 +67,6 @@ class CustomTextField extends StatelessWidget {
               focusNode: focusNode,
               keyboardType: keyBoardType,
               cursorColor: AppColors.black,
-              style: context.txtTheme().headlineSmall,
               decoration: InputDecoration(
                 prefixIcon: prefixIcon,
                 contentPadding:

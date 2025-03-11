@@ -1,10 +1,11 @@
-import 'package:dadonda/core/utils/button_style.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
-import 'package:dadonda/core/utils/app_assets.dart';
-import 'package:dadonda/core/utils/app_colors.dart';
 
+import '../../core/utils/app_assets.dart';
+import '../../core/utils/app_colors.dart';
+import '../../core/utils/button_style.dart';
 import 'measure_size.dart';
 class CustomButton extends StatefulWidget {
   /// default state: [Active]

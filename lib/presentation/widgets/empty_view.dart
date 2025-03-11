@@ -1,10 +1,7 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:dadonda/config/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:dadonda/core/utils/app_assets.dart';
-import 'package:dadonda/core/utils/app_colors.dart';
-
+import '../../config/extensions.dart';
 class EmptyView extends StatelessWidget {
   final int animatedBegin;
   final String imageUrl;
